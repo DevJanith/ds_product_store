@@ -21,6 +21,11 @@ const navConfigTrader = [
     path: '/dashboard/item-management',
     icon: getIcon('eva:activity-fill'),
   },
+  {
+    title: 'transaction management',
+    path: '/dashboard/transaction-management',
+    icon: getIcon('eva:paper-plane-fill'),
+  },
 ];
 
 export default navConfigTrader;

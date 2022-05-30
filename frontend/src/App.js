@@ -9,6 +9,7 @@ import NotFound from './pages/Page404';
 import ItemManagement from './pages/Project/ItemManagement/ItemManagement';
 import PaymentManagement from './pages/Project/PaymentManagement/PaymentManagement';
 import ShopManagement from './pages/Project/ShopManagement/ShopManagement';
+import TransactionManagement from './pages/Project/TransactionManagment/TransactionManagment';
 import Login from './pages/Project/UserManagement/Login';
 import Register from './pages/Project/UserManagement/Register';
 import UserManagement from './pages/Project/UserManagement/UserManagement';
@@ -33,6 +34,7 @@ export default function App() {
             <Route path='item-management' element={<ItemManagement />} />
             <Route path='shop-management' element={<ShopManagement />} />
             <Route path='payment-management' element={<PaymentManagement />} />
+            <Route path='transaction-management' element={<TransactionManagement />} />
             {/* <Route path='blog' element={<Blog />} /> */}
             <Route path='*' element={<Navigate to='/404' />} />
           </Route>

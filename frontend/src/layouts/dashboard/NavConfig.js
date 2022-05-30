@@ -56,6 +56,11 @@ const navConfig = [
     path: '/dashboard/payment-management',
     icon: getIcon('eva:paper-plane-fill'),
   },
+  {
+    title: 'transaction management',
+    path: '/dashboard/transaction-management',
+    icon: getIcon('eva:paper-plane-fill'),
+  },
   // {
   //   title: 'login',
   //   path: '/login',
